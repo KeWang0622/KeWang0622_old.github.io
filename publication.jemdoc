@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{publication.html}
+ = Publications 
+ [https://scholar.google.com/citations?user=Iz3m3v4AAAAJ&hl=en \[Google Scholar\]]
+ - Journal Papers (arXiv)
+ -- [ Reconstruction and Registration of Large-Scale Medical Scene Using Point Clouds Data from Different Modalities]\n
+ *Ke Wang*, Han Song, Jiahui Zhang, Xinran Zhang, and Hongen Liao \n 
+ arXiv preprint arXiv:1809.01318
+ - Conference
+ -- Unsupervised Learning for Improved Fidelity Multi-contrast MRI \n
+ *Ke Wang*, Frank Ong, Jonathan I Tamir, and Michael Lustig \n
+ In proceedings of the 28th ISMRM Annual Meeting and Exhibition, Canada, 2019
+ -- Real-time Personalized Acquisition Optimization: 30\%-50\% reconstruction improvements from a 10-second undersampling optimization \n
+ *Ke Wang*, Enhao Gong, Suchandrima Banerjee, John M Pauly, and Greg Zaharchunkt \n
+ In proceedings of the 27th ISMRM Annual Meeting and Exhibition, France, 2018
+ -- Ultrafast Temperature Estimation from Undersampled K-space for MR Guided Microwave Ablation \n
+ *Ke Wang*, Zijing Dong, Fuyixue Wang, Bingyao Chen, Jiafei Yang, Xing Wei, and Kui Ying \n
+ In proceedings of the 27th ISMRM Annual Meeting and Exhibition, France, 2018
+ -- Fast Temperature Estimation Using Golden Angle Radial from Undersampled K-space for MR Guided Microwave Ablation \n
+ *Ke Wang*, Zijing Dong, Fuyixue Wang, Bingyao Chen, Jiafei Yang, Xing Wei, and Kui Ying \n
+ In proceedings of the 26th ISMRM Annual Meeting and Exhibition, USA, 2017

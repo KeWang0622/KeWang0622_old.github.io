@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{index.html}
+= Ke Wang 
+
+~~~
+{}{img_left}{kwang.jpg}{alt text}{244.8px}{360.6px}{}
+Ke Wang \n
+Ph.D. Student \n 
+[https://eecs.berkeley.edu/ Department of Electrical Engineering and Computer Sciences] \n
+[https://www.berkeley.edu/ University of California, Berkeley]  \n
+Contact: [kewang@berkeley.edu Email], [https://www.linkedin.com/in/ke-wang-32705a16a/ Linkedin], [https://github.com/KeWang0622 Github], [https://people.eecs.berkeley.edu/~kewang/ Homepage]
+~~~
+
+== Short Bio 
+I am a first year Ph.D. student in Electrical Engineering and Computer Sciences at UC Berkeley, working with [http://people.eecs.berkeley.edu/~mlustig/ Prof. Miki Lustig]. I graduated with honor from the department of [http://www.med.tsinghua.edu.cn/ Biomedical Engineering] in [http://www.tsinghua.edu.cn/publish/thu2018en/index.html/ Tsinghua University]. From 2015-2018, I have been working on Magnetic Resonance Temperature Imaging, supervised by Prof. Kui Ying and working at [http://at3d.med.tsinghua.edu.cn/en/index.html The Advanced Theranostics and 3-D Imaging Laboratory (AT3D Lab)], supervised by [http://at3d.med.tsinghua.edu.cn/en/members/Professor.html Prof. Hongen liao] for my undergraduate thesis. My research interests lie in computational magnetic resonance imaging, signal processing, medical imaging and computer vision.
+== News 
+- \[11-2018\] First authored paper "Reconstruction and Registration of Large-Scale Medical Scene Using Point Clouds Data from Different Modalities" won the *Best Poster Award* in ACCAS 2018.
+== Education 
+- Ph.D. student, Department of Electrical Engineering and Computer Sciences, UC Berkeley, Berkeley, CA USA, Aug. 2018 - Present
+- B.E., Department of Biomedical Engineering, Tsinghua University, Beijing, China, Sep. 2014 - July 2018
+== Research Interests 
+- Magnetic Resonance Imaging (MRI)
+- Image Reconstruction
+- Medical Imaging
+- Computer Vision
+ 
