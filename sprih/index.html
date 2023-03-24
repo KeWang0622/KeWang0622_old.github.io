@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Novel semi-supervised training strategy, allowing us learn local appearance harmonization from unpaired real composites.">
+  <meta name="keywords" content="Image Harmonization, Semi-supervised Training">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semi-supervised Parametric Real-world Image Harmonization</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Semi-supervised Parametric Real-world Image Harmonization</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://people.eecs.berkeley.edu/~kewang/">Ke Wang</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="http://mgharbi.com/">Michaël Gharbi</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/hezhangsprinter/">He Zhang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://likesum.github.io/">Zhihao Xia</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a><sup>1</sup>,
+            </span>
+          </div>
+
+
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Adobe Inc.,</span>
+            <span class="author-block"><sup>2</sup>University of California, Berkeley</span>
+          </div>
+          <div class="column has-text-centered">
+            <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a>
+            </span>
+          </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2303.00157"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2303.00157"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://people.eecs.berkeley.edu/~kewang/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (coming soon)</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img class="round" style="width:1280" src="./static/images/Figure_teaser_final.png"/>
+      <h2 class="subtitle has-text-centered">
+        A novel semi-supervised training strategy and the first harmonization method that learns complex local appearance harmonization from unpaired real composites.
+        <!-- Our approach shades the face according to the sun’s direction (top) or selectively darkening the part of the dog inside the cave (bottom). -->
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Learning-based image harmonization techniques are usually trained to undo synthetic random global transformations applied to a masked foreground in a single ground
+            truth photo. This simulated data does not model many of
+            the important appearance mismatches (illumination, object
+            boundaries, etc.) between foreground and background in
+            real composites, leading to models that do not generalize
+            well and cannot model complex local changes.
+            </p>
+            <p>
+            We propose
+            a new semi-supervised training strategy that addresses this
+            problem and lets us learn complex local appearance harmonization from unpaired real composites, where foreground
+            and background come from different images. Our model is
+            fully parametric. It uses RGB curves to correct the global
+            colors and tone and a shading map to model local variations. Our method outperforms previous work on established benchmarks and real composites, as shown in a user
+            study, and processes high-resolution images interactively
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Demo Video</h2>
+
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="100%">
+            <source src="./static/videos/demo_video.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+             We present a demo video to demonstrate the workflow of our method running on CPUs. Our model is fully parametric. It uses RGB curves to correct the global
+             colors and tone and a shading map to model local variations. Users can incorporate posthoc edits to both the curves and the shading map, greatly enhancing users' creative controls!
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="hero-body">
+        <h2 class="title is-3">Method</h2>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <img class="round" style="width:1280" src="./static/images/Figure_method_2.png"/>
+
+            <div class="content has-text-justified">
+              <p>
+                Our proposed semi-supervised dualstream training strategy alternates between two training streams: a) Supervised training with artist-retouched composite image pairs (left).
+                Artist adjustments include global color editing, shading correction, and other local edits. b) Unsupervised adversarial training with realworld composite images (right). It uses a GAN training procedure, comparing our harmonized results with a large dataset of realistic
+                image composites.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="hero-body">
+        <h2 class="title is-3">Results</h2>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <img class="round" style="width:1280" src="./static/images/Figure_8_final.png"/>
+
+            <div class="content has-text-justified">
+              <p>
+                RGB curves harmonize the global color/tone (center), while our shading map corrects the local shading in the harmonization output (right).
+              </p>
+            </div>
+
+            <img class="round" style="width:1280" src="./static/images/Figure_5_final.png"/>
+            <div class="content has-text-justified">
+              <p>
+                Representative visual comparisons between state-of-the-art harmonization results. Our results show better visual agreements with the ground truth in terms of color harmonization
+                (rows 1,2 and 4) and shading correction (row 3).
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{wang2023semi,
+      title={Semi-supervised Parametric Real-world Image Harmonization},
+      author={Wang, Ke and Gharbi, Micha{\"e}l and Zhang, He and Xia, Zhihao and Shechtman, Eli},
+      journal={arXiv preprint arXiv:2303.00157},
+      year={2023}
+      }</code></pre>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    <p>
+      This work was done by Ke Wang during the Adobe internship. 
+      The website template is taken from <a href="https://nerfies.github.io/">Nerfies</a> project page.
+    </p>
+  </div>
+</section>
+
+
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+</body>
+</html>
