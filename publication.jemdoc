@@ -2,10 +2,61 @@
  = Publications 
  [https://scholar.google.com/citations?user=Iz3m3v4AAAAJ&hl=en \[Google Scholar\]]
  - Journal Papers (arXiv)
- -- [ Reconstruction and Registration of Large-Scale Medical Scene Using Point Clouds Data from Different Modalities]\n
+ -- [https://arxiv.org/abs/2212.10817 High-fidelity Direct Contrast Synthesis from Magnetic Resonance Fingerprinting]\n
+ *Ke Wang*, Mariya Doneva, Jakob Meineke, Thomas Amthor, Ekin Karasan, Fei Tan, Jonathan I. Tamir, Stella X. Yu, Michael Lustig \n
+ arXiv preprint arXiv:2212.10817
+ -- [https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29227 High Fidelity Deep Learning-based MRI Reconstruction with Instance-wise Discriminative Feature Matching Loss]\n
+ *Ke Wang*, Jonathan I Tamir, Alfredo De Goyeneche, Uri Wollner, Rafi Brada, Stella Yu, Michael Lustig \n
+ Magnetic Resonance in Medicine.
+ -- [https://www.pnas.org/doi/abs/10.1073/pnas.2117203119 Implicit data crimes: Machine learning bias arising from misuse of public data]\n
+ Efrat Shimron, Jonathan I Tamir, *Ke Wang*, Michael Lustig \n
+ arXiv preprint arXiv:2109.08237 Proceedings of the National Academy of Sciences, 119(13), e2117203119.
+ -- [https://arxiv.org/abs/2103.04003 Memory-efficient Learning for High-Dimensional MRI Reconstruction] (*Accepted by MICCAI 2021*)\n
+ *Ke Wang*, Michael Kellman, Christopher M. Sandino, Kevin Zhang, Shreyas S. Vasanawala, Jonathan I. Tamir, Stella X. Yu, Michael Lustig\n
+ arXiv preprint arXiv:2103.04003
+ -- [https://arxiv.org/abs/2103.04566 OUTCOMES: Rapid Under-sampling Optimization achieves up to 50% improvements in reconstruction accuracy for multi-contrast MRI sequences]\n
+ *Ke Wang*, Enhao Gong, Yuxin Zhang, Suchadrima Banerjee, Greg Zaharchuk, John Pauly \n
+ arXiv preprint arXiv:2103.04556
+ -- [https://onlinelibrary.wiley.com/doi/10.1002/mrm.28569 CG‐SENSE revisited: Results from the first ISMRM reproducibility challenge]\n
+ Oliver Maier, Steven H. Baete, Alexander Fyrdahl, Kerstin Hammernik, Seb Harrevelt, Lars Kasper, Agah Karakuzu, Michael Loecher, Franz Patzig, Ye Tian, *Ke Wang*, Daniel Gallichan, Martin Uecker, Florian Knoll \n
+ Magnetic Resonance in Medicine, 85(4), 1821-1839
+ -- [https://arxiv.org/pdf/1809.01318.pdf Reconstruction and Registration of Large-Scale Medical Scene Using Point Clouds Data from Different Modalities]\n
  *Ke Wang*, Han Song, Jiahui Zhang, Xinran Zhang, and Hongen Liao \n 
  arXiv preprint arXiv:1809.01318
+ -- [https://ieeexplore.ieee.org/abstract/document/8962390 Computational MRI With Physics-Based Constraints: Application to Multicontrast and Quantitative Imaging]\n
+ Jonathan I. Tamir, Frank Ong, Suma Anand, Ekin Karasan, *Ke Wang*, Michael Lustig \n
+IEEE Signal Processing Magazine, 37(1), 94-104.
  - Conference
+ -- Rigorous Uncertainty Estimation for MRI Reconstruction \n
+ *Ke Wang*, Anastasios Angelopoulos, Alfredo De Goyeneche, Amit Kohli, Efrat Shimron,  Stella X. Yu, Jitendra Malik, Michael Lustig \n
+ In proceedings of the 31th ISMRM Annual Meeting and Exhibition, United Kingdom, 2022 *(Oral)*
+ -- ResoNet: Physics Informed Deep Learning based Off-Resonance Correction Trained on Synthetic Data \n
+ Alfredo De Goyeneche, Shreya Ramachandran, *Ke Wang*, Ekin Karasan, Stella X. Yu, Michael Lustig \n
+ In proceedings of the 31th ISMRM Annual Meeting and Exhibition, United Kingdom, 2022 *(Oral)*
+ -- BladeNet: Rapid PROPELLER Acquisition and Reconstruction for High spatio-temporal Resolution Abdominal MRI \n
+ Efrat Shimron, Alfredo De Goyeneche, *Ke Wang*, Ali B. Syed, Shreyas Vasanawala, Michael Lustig \n
+ In proceedings of the 31th ISMRM Annual Meeting and Exhibition, United Kingdom, 2022 *(Oral)*
+ -- Memory-efficient Learning for Highdimensional MR Reconstruction \n
+ *Ke Wang*, Michael Kellman, Christopher Sandino, Kevin Zhang, Shreyas S. Vasanawala, Jonathan I. Tamir, Stella X. Yu and Michael Lustig \n
+ In proceedings of the 30th ISMRM Annual Meeting and Exhibition, Canada, 2021
+ -- Subtle Inverse Crimes: Naively using publicly available images could make reconstruction results seem misleadingly better! \n
+ Efrat Shimron, Jonathan I. Tamir, *Ke Wang* and  Michael Lustig \n
+ In proceedings of the 30th ISMRM Annual Meeting and Exhibition, Canada, 2021 *(Oral)* 
+ -- A Gpu-accelerated Extended Phase Graph Algorithm for Differentiable Optimization and Learning \n
+ Somnath Rakshit, *Ke Wang*, and Jonathan I. Tamir \n
+ In proceedings of the 30th ISMRM Annual Meeting and Exhibition, Canada, 2021 
+ -- DSLR+: Enhancing Deep Subspace Learning Reconstruction for High-dimensional MRI \n
+ Christopher Sandino, Frank Ong, *Ke Wang*, Michael Lustig and Shreyas S. Vasanawala. \n
+ In proceedings of the 30th ISMRM Annual Meeting and Exhibition, Canada, 2021 *(Oral)* 
+ -- High-Fidelity Reconstruction with Instance-wise Discriminative Feature Matching Loss \n
+ *Ke Wang*, Jonathan I. Tamir, Stella X. Yu, Michael Lustig \n
+ In proceedings of the 29th ISMRM Annual Meeting and Exhibition, France, 2020 *(Oral)*
+ -- High Fidelity Direct-Contrast Synthesis from Magnetic Resonance Fingerprinting in Diagnostic Imaging \n
+ *Ke Wang*, Mariya Doneva, Thomas Amthor, Vera C. Keil, Ekin Karasan, Fei Tan, Jonathan I. Tamir, Stella X. Yu, Michael Lustig \n
+ In proceedings of the 29th ISMRM Annual Meeting and Exhibition, France, 2020 *(Oral)*
+ -- [https://ieeexplore.ieee.org/document/8857309 Non-Invasive Remote Temperature Monitoring Using Microwave-Induced Thermoacoustic Imaging] \n
+ Hao Nan, Aidan Fitzpatrick, *Ke Wang*, Amin Arbabian \n
+ 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Berlin, Germany, 2019, pp. 6375-6378. *(Oral)*
  -- Unsupervised Learning for Improved Fidelity Multi-contrast MRI \n
  *Ke Wang*, Frank Ong, Jonathan I Tamir, and Michael Lustig \n
  In proceedings of the 28th ISMRM Annual Meeting and Exhibition, Canada, 2019

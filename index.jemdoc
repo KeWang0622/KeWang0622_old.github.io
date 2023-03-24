@@ -7,12 +7,42 @@ Ke Wang \n
 Ph.D. Student \n 
 [https://eecs.berkeley.edu/ Department of Electrical Engineering and Computer Sciences] \n
 [https://www.berkeley.edu/ University of California, Berkeley]  \n
-Contact: [kewang@berkeley.edu Email], [https://www.linkedin.com/in/ke-wang-32705a16a/ Linkedin], [https://github.com/KeWang0622 Github], [https://people.eecs.berkeley.edu/~kewang/ Homepage]
+Contact: [kewang@berkeley.edu Email], [https://www.linkedin.com/in/ke-wang-32705a16a/ Linkedin], [https://github.com/KeWang0622 Github], [https://people.eecs.berkeley.edu/~kewang/ Homepage], [https://twitter.com/KewangKe Twitter]
 ~~~
 
 == Short Bio 
-I am a first year Ph.D. student in Electrical Engineering and Computer Sciences at UC Berkeley, working with [http://people.eecs.berkeley.edu/~mlustig/ Prof. Miki Lustig]. I graduated with honor from the department of [http://www.med.tsinghua.edu.cn/ Biomedical Engineering] in [http://www.tsinghua.edu.cn/publish/thu2018en/index.html/ Tsinghua University]. From 2015-2018, I have been working on Magnetic Resonance Temperature Imaging, supervised by Prof. Kui Ying and working at [http://at3d.med.tsinghua.edu.cn/en/index.html The Advanced Theranostics and 3-D Imaging Laboratory (AT3D Lab)], supervised by [http://at3d.med.tsinghua.edu.cn/en/members/Professor.html Prof. Hongen liao] for my undergraduate thesis. My research interests lie in computational magnetic resonance imaging, signal processing, medical imaging and computer vision.
-== News 
+I am a fifth-year Ph.D. candidate in Electrical Engineering and Computer Sciences at UC Berkeley, working with [http://people.eecs.berkeley.edu/~mlustig/ Prof. Miki Lustig] and [http://www1.icsi.berkeley.edu/~stellayu/ Prof. Stella Yu]. I am a member of [https://bair.berkeley.edu/ Berkeley Artificial Intelligence Research (BAIR)]. I also work closely with [http://users.ece.utexas.edu/~jtamir/ Prof. Jon Tamir] at UT Austin and [https://www.frankongh.com/ Dr. Frank Ong] at Stanford University. I graduated with honor from the department of [http://www.med.tsinghua.edu.cn/ Biomedical Engineering] in [http://www.tsinghua.edu.cn/publish/thu2018en/index.html/ Tsinghua University] *(Happy 110th birthday, Tsinghua!!)*. From 2015-2018, I had worked on Magnetic Resonance Temperature Imaging, supervised by Prof. Kui Ying and worked at [http://at3d.med.tsinghua.edu.cn/en/index.html The Advanced Theranostics and 3-D Imaging Laboratory (AT3D Lab)], supervised by [http://at3d.med.tsinghua.edu.cn/en/members/Professor.html Prof. Hongen liao] for my undergraduate thesis. My research interests lie in *computational imaging, deep learning, signal processing, inverse problem, medical imaging and computer vision*. I am an enthusiast of science, engineering, music, ice skating, rock climbing and everything related to medicine and healthcare! My name in Chinese is 王可.
+
+I did a wonderful  internship at Adobe Emerging Products Group in the summer of 2021 (Work successfully deployed at PhotoShope Camera)!
+
+I'm interning at Adobe Research as a research scientist intern! (Started from May 2022)
+~~~
+{}{img_left}{animation1.gif}{alt text}{480px}{360px}{}
+~~~
+\n
+== News
+- \[3-2023] Our image harmonization work is accepted to [https://cvpr2023.thecvf.com/ CVPR 2023]! Check out our [http://people.eecs.berkeley.edu/~kewang/sprih project website]!
+- \[1-2023] I will be serving as reviewer for MICCAI 2023.
+- \[12-2022] Our Direct Contrast Synthesis (MRF) paper is out on arXiv. Please check it out! [https://arxiv.org/abs/2212.10817 \[paper\]]
+- \[5-2022] I presented our work on Rigorous Uncertainty Estimation for MRI Reconstruction at ISMRM 2022 as an oral presentation.
+- \[4-2022] Our UFLoss paper was accecpted by MRM and is now published online! Please check it out! [https://onlinelibrary.wiley.com/doi/10.1002/mrm.29227 \[paper\]][https://cds.ismrm.org/protected/20MPresentations/videos/dcvz/0994.htm \[talk\]][https://github.com/mikgroup/UFLoss \[code\]]
+- \[2-2022] Three abstracts (1 first-authored and 2 co-authored) were accepted by ISMRM 2022 as oral presentations!
+- \[2-2022] Our Data Crimes paper was accpeted for publication in PNAS! More infromation and details for this paper are avaible on [https://www.efratshimron.com/efrat-shimron-home Efrat's website].
+- \[1-2022] I will be joining [https://research.adobe.com Adobe Research] as a research scientist intern this summer, working on Computer Vision and Computational Photography with [https://research.adobe.com/person/eli-shechtman/ Eli Shechtman] and [http://mgharbi.com/ Michaël Gharbi]!
+- \[12-2021] I passed my qualifying exam and became a Ph.D. candidate in EECS at UC Berkeley!
+- \[9-2021] I will be presenting our work on /Memory-efficient Learning for High-dimensional MRI Reconstruction/ at [https://miccai2021.org/en/ MICCAI 2021]. Date & Time: *September 29th (Wednesday), 09:30 - 11:00 (UTC)*. Welcome to check it out! [https://arxiv.org/abs/2103.04003 \[Preprint\]] [MICCAI.pdf \[Poster\]] [https://www.youtube.com/watch?v=zkCjlOnURSc&ab_channel=KeWang \[Video\]]
+- \[9-2021] Our preprint paper [https://arxiv.org/abs/2109.08237 "Subtle Inverse Crimes: Naïvely training machine learning algorithms could lead to overly-optimistic results"] is out on arXiv! This work raises a red flag regarding Naïve off-label usage of Big Data and reveals the vulnerability of mordern inverse problem solvers to the resulting bias. Welcome to check it out!
+- \[8-2021] Our preprint paper [https://arxiv.org/abs/2108.12460 "High Fidelity Deep Learning-based MRI Reconstruction with Instance-wise Discriminative Feature Matching Loss"] is out on arXiv! Welcome to check it out! Code is available [https://github.com/mikgroup/UFLoss here]! In this work, we present a patch-based unsupervised learned feature loss (UFLoss), which allows the training of DL-based reconstruction to obtain more detailed texture, finer features and sharper edges with higher overall image quality. Previously presented at ISMRM 2020.
+- \[5-2021] I will be spending this summer at Adobe EPG team as a research intern, working on Computer Vision and Computational Photography  with [https://www.linkedin.com/in/xin-lu-1130053a/ Xin Lu] and [https://www.linkedin.com/in/zichuan-liu-a2a199154/?originalSubdomain=sg Zichuan Liu]. Let's make some impact!!
+- \[3-2021] Our preprint full paper on [https://arxiv.org/abs/2103.04003 "Memory-efficient learning for High-dimensional MRI Reconstruction"] is out on arXiv! *6-2021 Update: This paper has been accepted by MICCAI 2021!* In this work, we demonstrate a memory-efficient learning (MEL) framework, which uses far less GPU memory for training unrolled networks  and enables new applications of DL to high-dimensional MRI.
+- \[3-2021] Our preprint full paper on [https://arxiv.org/abs/2103.04566 "OUTCOMES: Rapid Under-sampling Optimization achieves up to 50% improvements in reconstruction accuracy for multi-contrast MRI sequences"] is out on arXiv!
+- \[2-2021] First authored abstract "Memory-efficient learning for High-dimensional MRI Reconstruction" has been accepted by ISMRM 2021 ([magna2021.pdf *Magna cum laude award*]). Co-authored abstracts "DSLR+: Enhancing deep subspace learning reconstruction for high-dimensional MRI", "Subtle Inverse Crimes: Naively using Publicly Available Images Could Make Reconstruction Results Seem Misleadingly Better!"(*Magna cum laude award*), "A GPU-accelerated Extended Phase Graph Algorithm for differentiable optimization and learning" have been accepted by ISMRM 2021.
+- \[11-2020] Co-authored paper [https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28569 "CG‐SENSE revisited: Results from the first ISMRM reproducibility challenge"] accpeted to Magnetic Resonance in Medicine. [https://arxiv.org/abs/2008.04308 Preprint]
+- \[1-2020] First authored abstract "High-Fidelity Reconstruction with Instance-wise Discriminative Feature Matching Loss" has been accepted by ISMRM 2020 as an oral presentation.([magna2020.pdf *Magna cum laude award*])
+- \[1-2020] First authored abstract "High Fidelity Direct-Contrast Synthesis from Magnetic Resonance Fingerprinting in Diagnostic Imaging" has been accepted by ISMRM 2020 as an oral presentation.([summa2020.pdf *Summa cum laude award*])
+- \[10-2019] Our direct contrast synthesis work "Towards High Fidelity Direct-Contrast Synthesis from Magnetic Resonance Fingerprinting" has been accepted by Med-Neurips 2019 (Neurips workshop).
+- \[9-2019\] Our review paper [https://arxiv.org/pdf/1906.11410.pdf "Computational MRI with Physics-based Constraints: Application to Multi-contrast and Quantitative Imaging"] has been accepted by IEEE Singal Processing Magazine.
+- \[5-2019\] Our full paper "Non-Invasive Remote Temperature Monitoring Using Microwave-Induced Thermoacoustic Imaging" has been accepted as an oral presentation in EMBC 2019.
 - \[11-2018\] First authored paper "Reconstruction and Registration of Large-Scale Medical Scene Using Point Clouds Data from Different Modalities" won the *Best Poster Award* in ACCAS 2018.
 == Education 
 - Ph.D. student, Department of Electrical Engineering and Computer Sciences, UC Berkeley, Berkeley, CA USA, Aug. 2018 - Present
@@ -22,4 +52,9 @@ I am a first year Ph.D. student in Electrical Engineering and Computer Sciences 
 - Image Reconstruction
 - Medical Imaging
 - Computer Vision
- 
+- Computational Imaging
+- Inverse Problem
+- Deep Learning 
+== Service
+- Reviewer for ISMRM 2022; EMBC 2022; MICCAI 2022
+- Reviewer for IEEE Transactions on Circuits and Systems for Video Technolog 
