@@ -4,7 +4,7 @@
  - Journal Papers (arXiv)
  -- [https://arxiv.org/abs/2212.10817 High-fidelity Direct Contrast Synthesis from Magnetic Resonance Fingerprinting]\n
  *Ke Wang*, Mariya Doneva, Jakob Meineke, Thomas Amthor, Ekin Karasan, Fei Tan, Jonathan I. Tamir, Stella X. Yu, Michael Lustig \n
- arXiv preprint arXiv:2212.10817
+ Magnetic Resonance in Medicine.
  -- [https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.29227 High Fidelity Deep Learning-based MRI Reconstruction with Instance-wise Discriminative Feature Matching Loss]\n
  *Ke Wang*, Jonathan I Tamir, Alfredo De Goyeneche, Uri Wollner, Rafi Brada, Stella Yu, Michael Lustig \n
  Magnetic Resonance in Medicine.
@@ -27,6 +27,9 @@
  Jonathan I. Tamir, Frank Ong, Suma Anand, Ekin Karasan, *Ke Wang*, Michael Lustig \n
 IEEE Signal Processing Magazine, 37(1), 94-104.
  - Conference
+ -- [https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Semi-Supervised_Parametric_Real-World_Image_Harmonization_CVPR_2023_paper.pdf Semi-supervised Parametric Real-world Image Harmonization] \n
+ *Ke Wang*, Michaël Gharbi, He Zhang, Zhihao Xia, Eli Shechtman \n
+ In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Canada, 2023.
  -- Rigorous Uncertainty Estimation for MRI Reconstruction \n
  *Ke Wang*, Anastasios Angelopoulos, Alfredo De Goyeneche, Amit Kohli, Efrat Shimron,  Stella X. Yu, Jitendra Malik, Michael Lustig \n
  In proceedings of the 31th ISMRM Annual Meeting and Exhibition, United Kingdom, 2022 *(Oral)*

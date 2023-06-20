@@ -3,26 +3,31 @@
 
 ~~~
 {}{img_left}{kwang.jpg}{alt text}{244.8px}{360.6px}{}
-Ke Wang Ph.D. \n
-Ph.D. Student \n 
-[https://eecs.berkeley.edu/ Department of Electrical Engineering and Computer Sciences] \n
+Ke Wang\n
+Senior Research Engineer \n
+[https://sra.samsung.com/ Samsung Research America] \n
+Ph.D. from [https://eecs.berkeley.edu/ EECS] \n
 [https://www.berkeley.edu/ University of California, Berkeley]  \n
 Contact: [kewang@berkeley.edu Email], [https://www.linkedin.com/in/ke-wang-32705a16a/ Linkedin], [https://github.com/KeWang0622 Github], [https://people.eecs.berkeley.edu/~kewang/ Homepage], [https://twitter.com/KewangKe Twitter]
 ~~~
 
 == Short Bio 
-I am a fifth-year Ph.D. candidate in Electrical Engineering and Computer Sciences at UC Berkeley, working with [http://people.eecs.berkeley.edu/~mlustig/ Prof. Miki Lustig] and [http://www1.icsi.berkeley.edu/~stellayu/ Prof. Stella Yu]. I am a member of [https://bair.berkeley.edu/ Berkeley Artificial Intelligence Research (BAIR)]. I also work closely with [http://users.ece.utexas.edu/~jtamir/ Prof. Jon Tamir] at UT Austin and [https://www.frankongh.com/ Dr. Frank Ong] at Stanford University. I graduated with honor from the department of [http://www.med.tsinghua.edu.cn/ Biomedical Engineering] in [http://www.tsinghua.edu.cn/publish/thu2018en/index.html/ Tsinghua University] *(Happy 110th birthday, Tsinghua!!)*. From 2015-2018, I had worked on Magnetic Resonance Temperature Imaging, supervised by Prof. Kui Ying and worked at [http://at3d.med.tsinghua.edu.cn/en/index.html The Advanced Theranostics and 3-D Imaging Laboratory (AT3D Lab)], supervised by [http://at3d.med.tsinghua.edu.cn/en/members/Professor.html Prof. Hongen liao] for my undergraduate thesis. My research interests lie in *computational imaging, deep learning, signal processing, inverse problem, medical imaging and computer vision*. I am an enthusiast of science, engineering, music, ice skating, rock climbing and everything related to medicine and healthcare! My name in Chinese is 王可.
+I am a senior research engineer at Samsung Research America (SRA), MPI Lab, working on real-world computational imaging and computer vision problems. I obtained my Ph.D. degree from Electrical Engineering and Computer Sciences at UC Berkeley, working with [http://people.eecs.berkeley.edu/~mlustig/ Prof. Miki Lustig] and [https://web.eecs.umich.edu/~stellayu/ Prof. Stella Yu]. I was a member of [https://bair.berkeley.edu/ Berkeley Artificial Intelligence Research (BAIR)]. I also work closely with [http://users.ece.utexas.edu/~jtamir/ Prof. Jon Tamir] at UT Austin and [https://www.frankongh.com/ Dr. Frank Ong] at Stanford University. I graduated with honor from the department of [http://www.med.tsinghua.edu.cn/ Biomedical Engineering] in [http://www.tsinghua.edu.cn/publish/thu2018en/index.html/ Tsinghua University] *(Happy 110th birthday, Tsinghua!!)*. My research interests lie in *computational imaging, deep learning, signal processing, inverse problem, medical imaging and computer vision*. I am an enthusiast of science, engineering, music, ice skating, rock climbing and everything related to medicine and healthcare! My name in Chinese is 王可.
 
 I did a wonderful  internship at Adobe Emerging Products Group in the summer of 2021 (Work successfully deployed at PhotoShope Camera)!
 
-I'm interning at Adobe Research as a research scientist intern! (Started from May 2022)
+I interned at Adobe Research as a research scientist intern from May 2022 to March 2023.
 ~~~
 {}{img_left}{animation1.gif}{alt text}{480px}{360px}{}
 ~~~
 \n
 == News
+- \[6-2023] Our image harmonization work ([https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Semi-Supervised_Parametric_Real-World_Image_Harmonization_CVPR_2023_paper.pdf Semi-supervised Parametric Real-world Image Harmonization]) is presented at CVPR 2023. [https://kewang0622.github.io/sprih/ \[Project page\]][https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Semi-Supervised_Parametric_Real-World_Image_Harmonization_CVPR_2023_paper.pdf \[Paper\]][https://www.youtube.com/watch?v=SGAyDbJPyps \[Video\]][https://github.com/adobe/PIH \[Code\]][cvpr23_poster_8236.pdf \[Poster\]]
+- \[6-2023] Our paper High-fidelity Direct Contrast Synthesis from MR Fingerprinting was accepted by MRM is now published online! Please check it out! [https://onlinelibrary.wiley.com/doi/10.1002/mrm.29766 \[Paper\]]
+- \[6-2023] I join Samsung Research America (SRA) as a senior research engineer, working on real-worled computational imaging and computer vision! Lets keep making impacts!
+- \[5-2023] *Graduation time! I offically obtained my Ph.D degree from EECS, UC Berkeley! Go Bears!*
 - \[3-2023] Our image harmonization work is accepted to [https://cvpr2023.thecvf.com/ CVPR 2023]! Check out our [http://people.eecs.berkeley.edu/~kewang/sprih project website]!
-- \[1-2023] I will be serving as reviewer for MICCAI 2023.
+- \[1-2023] I will be serving as reviewer for MICCAI 2023, Neurips 2023, Siggraph Asia 2023.
 - \[12-2022] Our Direct Contrast Synthesis (MRF) paper is out on arXiv. Please check it out! [https://arxiv.org/abs/2212.10817 \[paper\]]
 - \[5-2022] I presented our work on Rigorous Uncertainty Estimation for MRI Reconstruction at ISMRM 2022 as an oral presentation.
 - \[4-2022] Our UFLoss paper was accecpted by MRM and is now published online! Please check it out! [https://onlinelibrary.wiley.com/doi/10.1002/mrm.29227 \[paper\]][https://cds.ismrm.org/protected/20MPresentations/videos/dcvz/0994.htm \[talk\]][https://github.com/mikgroup/UFLoss \[code\]]
